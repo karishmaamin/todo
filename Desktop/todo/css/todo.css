@@ -1,0 +1,47 @@
+.header {
+  width: 50%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.items {
+  border: none;
+  background-color: transparent;
+}
+
+input[type=checkbox]:checked + .items {
+  text-decoration: line-through;
+}
+
+h1 {
+  color: #004b8d;
+  font-family: "Alfa Slab One", serif;
+  font-size: 2rem;
+}
+
+.inputtext {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+#todolist {
+  width: 100%;
+}
+
+ul {
+  padding: 0px;
+}
+
+.close {
+  float: right;
+  margin-right: 10px;
+}
+
+li {
+  padding: 10px 0px;
+  border: 1px solid lightgrey;
+}
+/*# sourceMappingURL=todo.css.map */
