@@ -1,5 +1,5 @@
 $('#taskInput').keypress(function(event){
-    let keycode = event.keyCode; 
+    let keycode = (event.keyCode ? event.keyCode : event.which);
     if(keycode == '13'){
         newElement();
     }
